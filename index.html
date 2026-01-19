@@ -131,9 +131,12 @@
         </div>
       </section>
       <!-- about -->
-      <section>
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-[#160b2b]/70 backdrop-blur-md"></div>
         <!-- about content -->
-        <div class="max-w-7xl mx-auto border-b border-white/10 pt-28 sm:pt-32 pb-16 sm:pb-20">
+        <div
+          class="max-w-7xl mx-auto border-b border-white/10 pt-10 pb-16 relative z-10"
+        >
           <div class="max-w-3xl mx-auto text-center">
             <h3 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
               About The Podcast
@@ -151,7 +154,9 @@
           </div>
         </div>
         <!-- about stats -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 lg:mx-10 py-16">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 lg:mx-10 py-10 relative z-10"
+        >
           <div class="text-center px-4 py-8">
             <h3 class="text-5xl font-bold text-green-400 mb-3">150K+</h3>
             <p class="uppercase">Monthly Listeners</p>
@@ -161,7 +166,9 @@
             <p class="uppercase">Episodes Published</p>
           </div>
           <div class="text-center px-4 py-8">
-            <h3 class="flex justify-center items-center text-5xl font-bold text-green-400 mb-3">
+            <h3
+              class="flex justify-center items-center text-5xl font-bold text-green-400 mb-3"
+            >
               4.9<i class="fa-solid fa-star text-2xl"></i>
             </h3>
             <p class="uppercase">Average Rating</p>
@@ -169,6 +176,96 @@
           <div class="text-center px-4 py-8">
             <h3 class="text-5xl font-bold text-green-400 mb-3">50+</h3>
             <p class="uppercase">Industry Experts</p>
+          </div>
+        </div>
+      </section>
+      <!-- why choose TechWave -->
+      <!-- <section class="py-16">
+        <h3 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center">Why Choose TechWave</h3>
+        <div class="grid col-span-3 row-span-3">
+          <div class="flex flex-col gap-6 col-span-1 p-3 bg-[#2714409f]">
+            <img class="w-10 h-10" src="assets/headphone.png" alt="">
+            <h3>Premium Audio Quality</h3>
+            <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optional listening across all devices and platforms.</p>
+          </div>
+        </div>
+       </section> -->
+      <section class="py-20 bg-[#24113f]">
+        <div class="max-w-7xl mx-auto px-4">
+          <!-- Section Title -->
+          <h2
+            class="text-center text-3xl sm:text-4xl font-bold text-white mb-14"
+          >
+            Why Choose TechWave
+          </h2>
+
+          <!-- Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="p-8 rounded-2xl bg-[#2d1650] col-span-1 row-span-2">
+              <div class="mb-4">
+                <img src="assets/headphone.png" alt="">
+              </div>
+              <h3 class="text-white font-semibold mb-2">
+                Premium Audio Quality
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Experience crystal-clear sound with professional-grade recording
+                equipment and expert audio engineering. Every episode is
+                mastered for optimal listening across all devices and platforms.
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="p-8 rounded-2xl bg-[#2d1650] col-span-2 row-span-1">
+              <div class="mb-4">
+                <img src="assets/device.png" alt="">
+              </div>
+              <h3 class="text-white font-semibold mb-2">Mobile Friendly</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Listen on the go with seamless mobile experience and offline
+                downloads.
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="p-8 rounded-2xl bg-[#2d1650] col-span-2 row-span-1">
+              <div class="mb-4">
+                <img src="assets/location.png" alt="">
+              </div>
+              <h3 class="text-white font-semibold mb-2">Global Community</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Connect with tech enthusiasts from over 120 countries worldwide.
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="p-8 rounded-2xl bg-[#2d1650] col-span-2 row-span-1">
+              <div class="mb-0">
+               <img class="w-24 h-24 " src="assets/interviews.svg" alt="">
+              </div>
+              <h3 class="text-white font-semibold mb-2">
+                Exclusive Interviews
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Get unprecedented access to industry titans, startup founders,
+                and tech visionaries. Our host secures exclusive conversations
+                you won’t find anywhere else, diving deep into their journeys,
+                failures, and success strategies.
+              </p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="p-8 rounded-2xl bg-[#2d1650] col-span-1 row-span-1">
+              <div class="mb-4">
+                <img src="assets/resource.png" alt="">
+              </div>
+              <h3 class="text-white font-semibold mb-2">Rich Resources</h3>
+              <p class="text-gray-400 text-sm leading-relaxed">
+                Access show notes, transcripts, and additional learning
+                materials for every episode.
+              </p>
+            </div>
           </div>
         </div>
       </section>
